@@ -2,34 +2,1347 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Constra</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
+
 <body>
-    <!-- FIRST HEADER -->
-    <div class="bg-primary text-white">
+
+
+    <!-- ================= FIRST HEADER ================= -->
+
+    <div class="bg-light">
+
         <div class="container">
 
             <div class="d-flex justify-content-between align-items-center py-2">
+
                 <!-- Location -->
                 <div>
+
                     <i class="fa-solid fa-location-dot text-secondary me-2"></i>
-                    <span>9051 Constra .Incorporate, USA</span>
+
+                    <span>
+                        9051 Constra Incorporate, USA
+                    </span>
+
                 </div>
-                
+
+
+                <!-- Social Icons -->
+                <div class="d-flex gap-4">
+
+                    <i class="fa-brands fa-facebook-f"></i>
+
+                    <i class="fa-brands fa-twitter"></i>
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                    <i class="fa-brands fa-github"></i>
+
+                </div>
+
             </div>
 
         </div>
+
     </div>
+
+
+    <!-- ================= SECOND HEADER ================= -->
+
+    <div class="bg-white">
+
+        <div class="container">
+
+            <div class="row align-items-center py-4">
+
+
+                <!-- Logo -->
+                <div class="col-lg-4">
+
+                    <img src="asserts/logo.png"
+                        alt="Constra Logo"
+                        width="235">
+
+                </div>
+
+
+                <!-- Call Us -->
+                <div class="col-lg-2 border-start">
+
+                    <div class="ps-3">
+
+                        <p class="text-secondary mb-1">
+                            Call Us
+                        </p>
+
+                        <h6 class="fw-bold mb-0">
+                            (+9) 847-291-4353
+                        </h6>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Email Us -->
+                <div class="col-lg-2 border-start">
+
+                    <div class="ps-3">
+
+                        <p class="text-secondary mb-1">
+                            Email Us
+                        </p>
+
+                        <h6 class="fw-bold mb-0">
+                            office@Constra.com
+                        </h6>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Global Certificate -->
+                <div class="col-lg-2 border-start">
+
+                    <div class="ps-3">
+
+                        <p class="text-secondary mb-1">
+                            Global Certificate
+                        </p>
+
+                        <h6 class="fw-bold mb-0">
+                            ISO 9001:2017
+                        </h6>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Button -->
+                <div class="col-lg-2 text-end">
+
+                    <button class="btn btn-warning text-white fw-bold px-4 py-3">
+                        Get A Quote
+                    </button>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+
+        <div class="container">
+
+
+            <!-- Navbar Menu -->
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+
+                <!-- Menu -->
+                <ul class="navbar-nav me-auto">
+
+
+                    <!-- HOME -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link active text-warning fw-bold dropdown-toggle"
+                            href="#"
+                            id="homeDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                            HOME
+
+                        </a>
+
+
+                        <ul class="dropdown-menu"
+                            aria-labelledby="homeDropdown">
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Home One
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Home Two
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- COMPANY -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link text-white fw-bold dropdown-toggle"
+                            href="#"
+                            id="companyDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                            COMPANY
+
+                        </a>
+
+
+                        <ul class="dropdown-menu"
+                            aria-labelledby="companyDropdown">
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    About Us
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Our People
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Testimonials
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    FAQ
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- PROJECTS -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link text-white fw-bold dropdown-toggle"
+                            href="#"
+                            id="projectsDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                            PROJECTS
+
+                        </a>
+
+
+                        <ul class="dropdown-menu"
+                            aria-labelledby="projectsDropdown">
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Projects All
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Projects Single
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- SERVICES -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link text-white fw-bold dropdown-toggle"
+                            href="#"
+                            id="servicesDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                            SERVICES
+
+                        </a>
+
+
+                        <ul class="dropdown-menu"
+                            aria-labelledby="servicesDropdown">
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Services All
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Services Single
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- FEATURES -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link text-white fw-bold dropdown-toggle"
+                            href="#"
+                            id="featuresDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                            FEATURES
+
+                        </a>
+
+
+                        <ul class="dropdown-menu"
+                            aria-labelledby="featuresDropdown">
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Typography
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- NEWS -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link text-white fw-bold dropdown-toggle"
+                            href="#"
+                            id="newsDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                            NEWS
+
+                        </a>
+
+
+                        <ul class="dropdown-menu"
+                            aria-labelledby="newsDropdown">
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    News Left Sidebar
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    News Right Sidebar
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- CONTACT -->
+                    <li class="nav-item">
+
+                        <a class="nav-link text-white fw-bold"
+                            href="#">
+
+                            CONTACT
+
+                        </a>
+
+                    </li>
+
+
+                </ul>
+
+
+                <!-- Search Icon -->
+                <div class="text-white fs-5">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ================= SLIDER ================= -->
+
+    <div id="heroSlider"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+        data-bs-interval="2500">
+
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+
+
+            <!-- SLIDE 1 -->
+            <div class="carousel-item active">
+
+                <div class="min-vh-100 d-flex align-items-center justify-content-center"
+                    style="background-image: url('https://constra-bootstrap-site.vercel.app/images/slider-main/bg3.jpg');
+                           background-size: cover;
+                           background-position: center;">
+
+                    <div class="container text-center text-white">
+
+                        <h3 class="fw-bold">
+                            17 YEARS OF EXCELLENCE IN
+                        </h3>
+
+                        <h1 class="fw-bold">
+                            CONSTRUCTION INDUSTRY
+                        </h1>
+
+                        <div class="mt-4">
+
+                            <a href="#"
+                                class="btn btn-warning text-white fw-bold px-4 py-3 me-2">
+
+                                OUR SERVICES
+
+                            </a>
+
+                            <a href="#"
+                                class="btn btn-outline-warning text-white fw-bold px-4 py-3">
+
+                                CONTACT NOW
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SLIDE 2 -->
+            <div class="carousel-item">
+
+                <div class="min-vh-100 d-flex align-items-center justify-content-center"
+                    style="background-image: url('https://constra-bootstrap-site.vercel.app/images/slider-main/bg1.jpg');
+                           background-size: cover;
+                           background-position: center;">
+
+                    <div class="container text-center text-white">
+
+                        <h3 class="fw-bold">
+                            BEST CONSTRUCTION COMPANY
+                        </h3>
+
+                        <h1 class="fw-bold">
+                            BUILDING YOUR DREAMS
+                        </h1>
+
+                        <div class="mt-4">
+
+                            <a href="#"
+                                class="btn btn-warning text-white fw-bold px-4 py-3 me-2">
+
+                                OUR SERVICES
+
+                            </a>
+
+                            <a href="#"
+                                class="btn btn-outline-warning text-white fw-bold px-4 py-3">
+
+                                CONTACT NOW
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SLIDE 3 -->
+            <div class="carousel-item">
+
+                <div class="min-vh-100 d-flex align-items-center justify-content-center"
+                    style="background-image: url('https://constra-bootstrap-site.vercel.app/images/slider-main/bg2.jpg');
+                           background-size: cover;
+                           background-position: center;">
+
+                    <div class="container text-center text-white">
+
+                        <h3 class="fw-bold">
+                            WE BUILD THE FUTURE
+                        </h3>
+
+                        <h1 class="fw-bold">
+                            QUALITY CONSTRUCTION
+                        </h1>
+
+                        <div class="mt-4">
+
+                            <a href="#"
+                                class="btn btn-warning text-white fw-bold px-4 py-3 me-2">
+
+                                OUR SERVICES
+
+                            </a>
+
+                            <a href="#"
+                                class="btn btn-outline-warning text-white fw-bold px-4 py-3">
+
+                                CONTACT NOW
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- END CAROUSEL INNER -->
+
+
+        <!-- Previous Button -->
+        <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#heroSlider"
+            data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"></span>
+
+            <span class="visually-hidden">
+                Previous
+            </span>
+
+        </button>
+
+
+        <!-- Next Button -->
+        <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#heroSlider"
+            data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"></span>
+
+            <span class="visually-hidden">
+                Next
+            </span>
+
+        </button>
+
+
+    </div>
+    <!-- END SLIDER -->
+
+
+   <!-- ================= ABOUT BANNER ================= -->
+<!-- Parent wrapper: Lifted using z-index to stay on top of the slider -->
+<div class="position-relative" style="z-index: 10; margin-top: -60px;">
+
+    <!-- Yellow Box Container -->
+    <div class="container">
+
+        <div class="bg-warning px-5 py-4 d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-4 shadow">
+
+            <!-- Text -->
+            <h4 class="text-white fw-bold mb-0">
+                WE UNDERSTAND YOUR NEEDS ON CONSTRUCTION
+            </h4>
+
+            <!-- Button -->
+            <a href="#" class="btn btn-dark fw-bold px-4 py-3 flex-shrink-0">
+                REQUEST QUOTE
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+    <!-- ================= ABOUT VALUES ================= -->
+
+    <div class="container py-5 mt-5">
+
+        <div class="row g-5">
+
+
+            <!-- LEFT SIDE -->
+            <div class="col-lg-6">
+
+                <p class="text-secondary fs-5 mb-2">
+                    ABOUT US
+                </p>
+
+
+                <h2 class="fw-bold display-6 mb-3">
+
+                    WE DELIVER LANDMARK<br>
+                    PROJECTS
+
+                </h2>
+
+
+                <p class="text-secondary fs-5 lh-lg">
+
+                    We are rhetoric question ran over her cheek When she
+                    reached the first hills of the Italic Mountains, she had
+                    a last view back on the skyline of her hometown
+                    Bookmarksgrove, the headline of Alphabet Village and the
+                    subline of her own road, the Line Lane.
+
+                </p>
+
+
+                <!-- FEATURES -->
+                <div class="row mt-4">
+
+
+                    <!-- Feature 1 -->
+                    <div class="col-md-6 mb-4">
+
+                        <div class="d-flex gap-4">
+
+                            <i class="fa-solid fa-trophy text-warning fs-1"></i>
+
+                            <h5 class="fw-bold">
+
+                                WE'VE REPUTATION FOR<br>
+                                EXCELLENCE
+
+                            </h5>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Feature 2 -->
+                    <div class="col-md-6 mb-4">
+
+                        <div class="d-flex gap-4">
+
+                            <i class="fa-solid fa-sliders text-warning fs-1"></i>
+
+                            <h5 class="fw-bold">
+
+                                WE BUILD<br>
+                                PARTNERSHIPS
+
+                            </h5>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Feature 3 -->
+                    <div class="col-md-6 mb-4">
+
+                        <div class="d-flex gap-4">
+
+                            <i class="fa-solid fa-thumbs-up text-warning fs-1"></i>
+
+                            <h5 class="fw-bold">
+
+                                GUIDED BY<br>
+                                COMMITMENT
+
+                            </h5>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Feature 4 -->
+                    <div class="col-md-6 mb-4">
+
+                        <div class="d-flex gap-4">
+
+                            <i class="fa-solid fa-users text-warning fs-1"></i>
+
+                            <h5 class="fw-bold">
+
+                                A TEAM OF<br>
+                                PROFESSIONALS
+
+                            </h5>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT SIDE -->
+            <div class="col-lg-6">
+
+                <h2 class="fw-bold display-6">
+                    OUR VALUES
+                </h2>
+
+
+                <p class="text-secondary fs-5 lh-lg">
+
+                    Minim Austin 3 wolf moon scenester aesthetic, umami odio
+                    pariatur bitters. Pop-up occaecat taxidermy street art,
+                    tattooed beard literally.
+
+                </p>
+
+
+                <!-- ACCORDION -->
+                <div class="accordion mt-4"
+                    id="valuesAccordion">
+
+
+                    <!-- SAFETY -->
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header">
+
+                            <button class="accordion-button fw-bold text-warning"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#safety">
+
+                                SAFETY
+
+                            </button>
+
+                        </h2>
+
+
+                        <div id="safety"
+                            class="accordion-collapse "
+                            data-bs-parent="#valuesAccordion">
+
+                            <div class="accordion-body text-secondary fs-5">
+
+                                Anim pariatur cliche reprehenderit, enim eiusmod
+                                high life accusamus terry richardson ad squid.
+                                3 wolf moon officia aute, non cupidata.
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CUSTOMER SERVICE -->
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header">
+
+                            <button class="accordion-button collapsed fw-bold"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#customer">
+
+                                CUSTOMER SERVICE
+
+                            </button>
+
+                        </h2>
+
+
+                        <div id="customer"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#valuesAccordion">
+
+                            <div class="accordion-body text-secondary fs-5">
+
+                                We provide excellent customer service and
+                                maintain strong communication with our clients.
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- INTEGRITY -->
+                    <div class="accordion-item">
+
+                        <h2 class="accordion-header">
+
+                            <button class="accordion-button collapsed fw-bold"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#integrity">
+
+                                INTEGRITY
+
+                            </button>
+
+                        </h2>
+
+
+                        <div id="integrity"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#valuesAccordion">
+
+                            <div class="accordion-body text-secondary fs-5">
+
+                                We believe in honesty, transparency and
+                                professional responsibility.
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= COUNTER SECTION ================= -->
+
+    <section class="bg-dark py-5">
+
+        <div class="container">
+
+            <div class="row text-center">
+
+
+                <!-- TOTAL PROJECTS -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+
+                    <i class="bi bi-house-door text-warning display-4"></i>
+
+                    <h1 class="text-white fw-bold mt-4 mb-2">
+                        1789
+                    </h1>
+
+                    <h5 class="text-warning fw-bold">
+                        TOTAL PROJECTS
+                    </h5>
+
+                </div>
+
+
+                <!-- STAFF MEMBERS -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+
+                    <i class="bi bi-person-workspace text-warning display-4"></i>
+
+                    <h1 class="text-white fw-bold mt-4 mb-2">
+                        647
+                    </h1>
+
+                    <h5 class="text-warning fw-bold">
+                        STAFF MEMBERS
+                    </h5>
+
+                </div>
+
+
+                <!-- HOURS OF WORK -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+
+                    <i class="bi bi-clock text-warning display-4"></i>
+
+                    <h1 class="text-white fw-bold mt-4 mb-2">
+                        4000
+                    </h1>
+
+                    <h5 class="text-warning fw-bold">
+                        HOURS OF WORK
+                    </h5>
+
+                </div>
+
+
+                <!-- COUNTRIES EXPERIENCE -->
+                <div class="col-lg-3 col-md-6">
+
+                    <i class="bi bi-globe2 text-warning display-4"></i>
+
+                    <h1 class="text-white fw-bold mt-4 mb-2">
+                        44
+                    </h1>
+
+                    <h5 class="text-warning fw-bold">
+                        COUNTRIES EXPERIENCE
+                    </h5>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SERVICES SECTION ================= -->
+
+    <section class="py-5">
+
+        <div class="container">
+
+
+            <!-- HEADING -->
+            <div class="text-center mb-5">
+
+                <p class="text-secondary fs-5 mb-1">
+                    WE ARE SPECIALISTS IN
+                </p>
+
+                <h2 class="fw-bold display-5">
+                    WHAT WE DO
+                </h2>
+
+            </div>
+
+
+            <!-- SERVICES ROW -->
+            <div class="row align-items-center">
+
+
+                <!-- LEFT SIDE -->
+                <div class="col-lg-4">
+
+
+                    <!-- HOME CONSTRUCTION -->
+                    <div class="d-flex mb-5">
+
+                        <div class="me-4">
+
+                            <i class="bi bi-buildings text-warning display-5"></i>
+
+                        </div>
+
+
+                        <div>
+
+                            <h5 class="fw-bold">
+                                HOME CONSTRUCTION
+                            </h5>
+
+                            <p class="text-secondary fs-5">
+
+                                Lorem ipsum dolor sit amet consectetur
+                                adipiscing elit Integer adipiscing erat
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- BUILDING REMODELS -->
+                    <div class="d-flex mb-5">
+
+                        <div class="me-4">
+
+                            <i class="bi bi-tools text-warning display-5"></i>
+
+                        </div>
+
+
+                        <div>
+
+                            <h5 class="fw-bold">
+                                BUILDING REMODELS
+                            </h5>
+
+                            <p class="text-secondary fs-5">
+
+                                Lorem ipsum dolor sit amet consectetur
+                                adipiscing elit Integer adipiscing erat
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- INTERIOR DESIGN -->
+                    <div class="d-flex">
+
+                        <div class="me-4">
+
+                            <i class="bi bi-rulers text-warning fs-1"></i>
+
+                        </div>
+
+
+                        <div>
+
+                            <h5 class="fw-bold">
+                                INTERIOR DESIGN
+                            </h5>
+
+                            <p class="text-secondary fs-5">
+
+                                Lorem ipsum dolor sit amet consectetur
+                                adipiscing elit Integer adipiscing erat
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- CENTER IMAGE -->
+                <div class="col-lg-4 text-center">
+
+                    <img src="https://constra-bootstrap-site.vercel.app/images/services/service-center.jpg"
+                        class="img-fluid"
+                        alt="Construction Worker">
+
+                </div>
+
+
+                <!-- RIGHT SIDE -->
+                <div class="col-lg-4">
+
+
+                    <!-- HOME CONSTRUCTION -->
+                    <div class="d-flex mb-5">
+
+                        <div class="me-4">
+
+                            <i class="bi bi-buildings text-warning display-5"></i>
+
+                        </div>
+
+
+                        <div>
+
+                            <h5 class="fw-bold">
+                                HOME CONSTRUCTION
+                            </h5>
+
+                            <p class="text-secondary fs-5">
+
+                                Lorem ipsum dolor sit amet consectetur
+                                adipiscing elit Integer adipiscing erat
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- BUILDING REMODELS -->
+                    <div class="d-flex mb-5">
+
+                        <div class="me-4">
+
+                            <i class="bi bi-tools text-warning display-5"></i>
+
+                        </div>
+
+
+                        <div>
+
+                            <h5 class="fw-bold">
+                                BUILDING REMODELS
+                            </h5>
+
+                            <p class="text-secondary fs-5">
+
+                                Lorem ipsum dolor sit amet consectetur
+                                adipiscing elit Integer adipiscing erat
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- INTERIOR DESIGN -->
+                    <div class="d-flex">
+
+                        <div class="me-4">
+
+                            <i class="bi bi-rulers text-warning fs-1"></i>
+
+                        </div>
+
+
+                        <div>
+
+                            <h5 class="fw-bold">
+                                INTERIOR DESIGN
+                            </h5>
+
+                            <p class="text-secondary fs-5">
+
+                                Lorem ipsum dolor sit amet consectetur
+                                adipiscing elit Integer adipiscing erat
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <!-- END SERVICES ROW -->
+
+
+        </div>
+
+    </section>
+ 
+<section class="py-5">
+
+    <div class="container">
+
+        <!-- HEADING -->
+        <div class="text-center mb-5">
+
+            <p class="text-dark fw-light fs-5 mb-1">
+                WORK OF EXCELLENCE
+            </p>
+
+            <h2 class="fw-bold display-5">
+                RECENT PROJECTS
+            </h2>
+
+        </div>
+
+
+        <!-- PROJECT-->
+        <div class="border-bottom border-warning border-3 mb-5 border-width-2">
+
+            <ul class="nav justify-content-center">
+
+                <li class="nav-item">
+                    <p class="bg-warning text-dark fw-bold px-4 py-3">
+                        SHOW ALL
+                    </p>
+                </li>
+ 
+                <li class="nav-item">
+                    <p  class="text-dark fw-bold px-4 py-3">
+                        COMMERCIAL 
+                    </p>
+                </li>
+
+                <li class="nav-item">
+                    <p  class="text-dark fw-bold px-4 py-3">
+                        EDUCATION
+                    </p>
+                </li>
+
+                <li class="nav-item">
+                    <p  class="text-dark fw-bold px-4 py-3">
+                        GOVERNMENT
+                    </p>
+                </li>
+
+                <li class="nav-item">
+                    <p  class=" text-dark fw-bold px-4 py-3">
+                        INFRASTRUCTURE
+                    </p>
+                </li>
+
+                <li class="nav-item">
+                    <p class=" text-dark fw-bold px-4 py-3">
+                        RESIDENTIAL
+                    </p>
+                </li>
+
+                <li class="nav-item">
+                    <p  class=" text-dark fw-bold px-4 py-3">
+                        HEALTHCARE
+                    </p>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- PROJECT IMAGES -->
+        <div class="row g-0">
+
+            <!-- PROJECT 1 -->
+            <div class="col-lg-4 col-md-6">
+
+                <img
+                    src="asserts\project1.jpg"
+                    class="img-fluid w-100"
+                    alt="Project 1">
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+            <div class="col-lg-4 col-md-6">
+
+                <img
+                    src="asserts\project2.jpg"
+                    class="img-fluid w-100"
+                    alt="Project 2">
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+            <div class="col-lg-4 col-md-6">
+
+                <img
+                    src="asserts\project3.jpg"
+                    class="img-fluid w-100"
+                    alt="Project 3">
+
+            </div>
+
+
+            <!-- PROJECT 4 -->
+            <div class="col-lg-4 col-md-6">
+
+                <img
+                    src="asserts\project4.jpg"
+                    class="img-fluid w-100"
+                    alt="Project 4">
+
+            </div>
+
+
+            <!-- PROJECT 5 -->
+            <div class="col-lg-4 col-md-6">
+
+                <img
+                    src="asserts\project5.jpg"
+                    class="img-fluid w-100"
+                    alt="Project 5">
+
+            </div>
+
+
+            <!-- PROJECT 6 -->
+            <div class="col-lg-4 col-md-6">
+
+                <img
+                    src="asserts\project6.jpg"
+                    class="img-fluid w-100"
+                    alt="Project 6">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<div>
+    <p  class="btn btn-warning fw-bold px-4 py-3 flex-shrink-0 text-center" style="margin-left: 45%; margin-top: 20px;">
+                REQUEST QUOTE 
+            </p>
+
+        </div>
+
+
+
+    <!-- ================= BOOTSTRAP JS ================= -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+    </script>
 
 
 </body>
