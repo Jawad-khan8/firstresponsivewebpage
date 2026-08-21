@@ -1,7 +1,28 @@
-*{
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.carousel-item > div {
+    width: 100%;
 }
 .hero-slide {
     height: 600px;
@@ -58,5 +79,5 @@
 }
 
 .hover-box:hover .overlay-content {
-    opacity: 1;
+    opacity: 2;
 }
